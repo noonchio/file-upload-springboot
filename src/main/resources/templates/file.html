@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<main>
+    <article th:each="r : ${att}">
+        <h3 th:text="${r.file_name}"></h3>
+        <p th:text="${r.file_type}"></p>
+<!--       <button> <a th:href="@{/posts/{id}(id=${post.id})}">Update Post</a></button>-->
+    </article>
+</main>
+
+
+</body>
+</html>
