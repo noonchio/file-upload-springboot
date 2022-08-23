@@ -14,4 +14,13 @@ public class AttController {
 
         return "file-upload";
     }
+
+
+//    Search API
+//    @RequestMapping("/api/v1/resources")
+//    @GetMapping("/search")
+//    public ResponseEntity<List<Resource>> searchResource(@RequestParam("query") String query, Model vModel) {
+//        return ResponseEntity.ok(resourceService.searchResource(query));
+//    }
+//    https://www.youtube.com/watch?v=ap0JhiIT5RI&t=508s
 }
